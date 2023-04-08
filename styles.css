@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    margin-top: 0;
+    padding: 0;
+}
+#flex-container{
+    /* display: flex;
+    border: 1px solid black;
+    height: 200px;
+   /* flex-direction: column;   */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    height: 200px;
+    margin: 0 10px;
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+}
+#flex-container > div:nth-child(1){
+    background-color: dodgerblue;
+    height: 30px;
+    margin: 0 10px;
+    
+}
+
+#flex-container > div:nth-child(2){
+    background-color: firebrick;
+    height: 30px;
+    margin: 0 10px;
+}
+
+#flex-container > div:nth-child(3){
+    background-color: violet;
+    height: 30px;
+    margin: 0 10px;
+}
